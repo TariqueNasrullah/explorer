@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  explorer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: explorer_container
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

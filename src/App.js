@@ -22,7 +22,11 @@ function fetcher(params: Object): Object {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
-        'Authorization': 'Bearer token_string'
+        // dev student
+        'Authorization': 'Bearer eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJWNDI1VUdTMDlKIiwiZW1haWwiOiJuYXNydWxsYWh0YXJpcXVlQGdtYWlsLmNvbSIsImV4cCI6MTYzNjY5MzUyOSwiaWF0IjoxNjM0MTAxNTI5LCJqdGkiOiJwNjBRZWw4RUJJejlKUzZjS0U2M1liakc3dGNaYjJ3ZSIsInJhdCI6IjEiLCJyb2xlIjoic3R1ZGVudCIsInN1YiI6IlY0MjVVR1MwOUoiLCJ1c2VyX2lkIjoiVjQyNVVHUzA5SiIsInVzZXJfcGhvbmUiOiIwMTUzNzE2MTM0MyJ9.BjbZj66Pz0r0yGySQWq8Q__Za4p_cODQk48Pn_yxTFpW_cA14Z4m_9fcWxQl5nKmkG25LdrGRwW5MhhQN7jlhYuQAx9qPshTIzyB9Jl5D_Qy0BM__b-juZbKnL0R3rOJDTw1l6qaJUz5EoZGaH9_5rzb4mXlm7-cbCd3K9jG9NWD10UMGc7kT989gnmvNQxj6CnIIV3q3ux4s2IsffbgkiIqojl66OflHZdOvrBtczkODRdilJp5sKjsmOIHkkAjqN5dAqUsMr2_NZfL3eB_XE1QSw50vhlXoVyK6jBIc7ZqpQIALtCN1C9_Kah_DeKzEd9ElLwLWx9cT7ESWQLlMg'
+
+        // admin
+        // 'Authorization': 'Bearer eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIyODg1ODAiLCJlbWFpbCI6ImFkbWluQHNoaWtoby50ZWNoIiwiZXhwIjoxNjM2NzAxNzIzLCJpYXQiOjE2MzQxMDk3MjMsImp0aSI6IlFTSXVIRUJOeVoyaWZlVzVlTXZmQzFWQ2Rpa2hRZXZtIiwicm9sZSI6ImFkbWluIiwic3ViIjoiMjg4NTgwIiwidXNlcl9pZCI6IjI4ODU4MCIsInVzZXJfcGhvbmUiOiIwMTc2MDAwMDAwMCJ9.Lc7-OJYB4cSHogAGuXPNzqMbd87oV6mOCZbUUevyIN88eFGj0aSzsQkCOoeTdcQNeO97pMd6EbaZWu2NHvUufy9zkTfQUL2EHrDNbqFDiEJCXf-GTrMZligiw5St1HtVa8HUZIfYPpBlc14syziI6JRolDP74_mTj9Qtrw7ahF0cbHmETBOXrYjsDW17yZtWnETptbY_oa24mEgiWyUSWtTUkeV1nbK9ZPqScAHPMRvdhkWF-VmK8ju7pHYSWub74A1tD8CtrlD9qrlN4YxeswIsgSTcow82PTFx7ET9H4LSXUBC5P0vuH1rF4L2DeidsTg45t18m4wW7xmWHpHtLw'
       },
       body: JSON.stringify(params)
     }
