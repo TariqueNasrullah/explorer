@@ -13,9 +13,9 @@ import type { GraphQLSchema } from "graphql";
 
 function fetcher(params: Object): Object {
   return fetch(
-    "http://localhost:5000/graphql",
+    // "http://localhost:5000/graphql",
     //   "https://engine.shikho.net/graphql",
-    //   "https://api.shikho.net/graphql",
+      "https://api.shikho.net/graphql",
 
       {
       method: "POST",
